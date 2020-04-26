@@ -1,0 +1,24 @@
+{
+  "name": "td-code-theme",
+  "publisher": "DiogoParente",
+  "displayName": "TDish",
+  "description": "This theme was inspired by Talkdesk's color palette.",
+  "repository": "https://github.com/dazp94/td-code-theme",
+  "icon": "images/dp.png",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.44.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "TDish",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dp-color-theme.json"
+      }
+    ]
+  }
+}
